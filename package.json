@@ -1,5 +1,5 @@
 {
-  "name": "three-test",
+  "name": "gatitaroom",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/react": "^2.6.14",
+    "@react-spring/three": "^9.7.5",
+    "@react-three/drei": "^9.121.4",
+    "@react-three/fiber": "^8.17.14",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.4.1",
+    "next": "14.2.23",
     "react": "^18",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18",
-    "next": "14.2.23"
+    "three": "^0.173.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
